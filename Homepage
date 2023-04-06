@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<style>
+.bg {
+  /* The image used */
+  background-color: black;
+
+  /* Full height */
+  height: 80%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-orange {
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button-blue {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+</style>
+
+    <div class="bg">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">JOBSTORE.COM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><font size="3">SEARCH JOBS</font></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><font size="3">COMPANIES</font></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><font size="3">DOWNLOAD APP</font></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><font size="3">COUNTRIES</font></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)"><font size="3">SIGN IN</font></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)"><font size="3">SIGN UP</font></a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button"><font size="3">EMPLOYEES</font></button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br />
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <h2><b><font color="white">TOTAL</font> <font color="orange">14,222</font> <font color="white">JOBS IN</font> <font color="orange">MALAYSIA</font></b></h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <button class="button-orange" style="width:100%;">FREE SIGN UP</button>
+                    </div>
+                    <div class="col-sm">
+                        <button class="button-blue" style="width:100%;">SEARCH JOBS</button>
+                    </div>
+                </div>       
+                <br/>
+                <div class="row">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/Fearless_Motivational_Quote_Desktop_Wallpaper_1.png?format=jpg&amp;quality=90&amp;v=1600450412" style="width:100%;height:100%;" />
+                </div>
+                <br/>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <img src="https://assets.jobstore.com/images/index/index_mobileapp_qr.png" style="width:100%;height:100%;" />
+                </div>
+                <br/>
+                <div class="row">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOoY8YFhjLD1hOjr9D_aNTwBbP3e7gaC0jg&usqp=CAU" style="width:100%;height:50%;" />
+                </div>                
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+    </div>
+
+    </div>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <img src="https://assets.jobstore.com/images/index/index_jobseeker_invite.gif" style="width:100%;" />
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <center><h3><b>FEATURED EMPLOYERS</b></h3></center><br/>
+            <center><a href="">View More</a></center>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+
+<div class="card-group">
+  <div class="card">
+    <img style="height:50%;" src="https://img1.wsimg.com/isteam/ip/d2b50777-ed2b-4e29-8ff6-9cfdc6a05622/TaoBin%20Bev%20Logo.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h8 class="card-title">Tao Bin Sdn Bhd</h8>
+      <p class="card-text"><small>49-3 Jalan PJU 1/37 , Dataran Prima, 47301 Petaling Jaya, Selangor</small></p>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="btn btn-primary" style="width:100%;">Apply Jobs</a>
+    </div>
+  </div>
+  <div class="card">
+    <img style="height:50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBsPSuOZsnQx_18t-EipXkLxqf_bLddoClw&usqp=CAU" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h8 class="card-title">Wallpaper & Carpet Distributors</h8>
+      <p class="card-text"><small>Lot 1509, Batu 8, Jalan Klang Lama, Taman Desaria</small></p>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="btn btn-primary" style="width:100%;">Apply Jobs</a>
+    </div>
+  </div>
+  <div class="card">
+    <img style="height:50%;" src="https://www.thesundaily.my/binrepository/768x483/0c26/768d432/none/11808/DSYB/925099735s_c2423006_1797_706_ARCH479426_MG492470.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h8 class="card-title">UST Global (M) Sdn Bhd</h8>
+      <p class="card-text"><small>Level 2, Mini Circuit Building 3, Plot 10, Bayan Lepas Technoplex, Phase IV, Bayan Lepas Industrial Zone, 11900 Bayan Lepas, Pulau Pinang</small></p>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="btn btn-primary" style="width:100%;">Apply Jobs</a>
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="container">
+        <div class="row">
+            <center><h3><b>TRENDING JOBS IN MALAYSIA</b></h3></center><br/>
+            <center><a href="">View More</a></center>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Key Account Executive (Sales ...</h8>
+      <p class="card-text"><small>Klang</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Costing Executive (URGENT)</h8>
+      <p class="card-text"><small>Klang</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">ARCHITECTURAL DRAUGHTSMAN</h8>
+      <p class="card-text"><small>Johor Bahru</small></p>
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Firmware Engineer</h8>
+      <p class="card-text"><small>Senai</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Site Supervisor</h8>
+      <p class="card-text"><small>Johor Bahru</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Field Service Support Engineer...</h8>
+      <p class="card-text"><small>Selangor/Melaka/Penang</small></p>
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Merchandiser/Assistant Merch...</h8>
+      <p class="card-text"><small>Johor Bahru</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Contracts Executive cum Qualit...</h8>
+      <p class="card-text"><small>Kuala Lumpur</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Front Office Assistant</h8>
+      <p class="card-text"><small>Bukit Damansara</small></p>
+    </div>
+  </div>
+</div>              
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Project Engineer</h8>
+      <p class="card-text"><small>Alor Gajah</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Executive - IT</h8>
+      <p class="card-text"><small>Subang Jaya</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Account assistant cum Administ...</h8>
+      <p class="card-text"><small>Johor Bahru</small></p>
+    </div>
+  </div>
+</div>  
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">M&E Assistant Resident Enginee...</h8>
+      <p class="card-text"><small>Kempas Baru</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Account Assistant/Account Ex...</h8>
+      <p class="card-text"><small>Kuala Lumpur</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h8 class="card-title">Production Supervisor Cum Tech...</h8>
+      <p class="card-text"><small>Kota Damansara</small></p>
+    </div>
+  </div>
+</div>                 
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="container">
+        <div class="row">
+            <center>IN JUST ONE MINUTE</center><br/>
+            <center><h3><b>SEARCH BY POPULAR CATEGORIES</b></h3></center><br/>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+            <center>
+                <div class="input-group">
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+  <button type="button" class="btn btn-outline-primary">search</button>
+</div>
+            </center>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                Popular categories
+            </div>
+            <div class="col-sm-8">
+                <a href="">Sales and Marketing jobs</a> |
+                <a href="">Information Technology jobs</a> |
+                <a href="">Accounting/Auditing jobs</a> |
+                <a href="">Engineering jobs</a> |
+                <a href="">Administrative jobs</a> |
+                <a href="">Customer Service jobs</a> |
+                <a href="">Human Resources jobs</a> |
+                <a href="">Finance/Banking jobs</a> |
+                <a href="">More</a>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+    </div>
+    <br/>
+    <br/>
+<footer class="mainfooter bg-red" role="contentinfo">
+  <br />
+  <div class="container">
+
+      <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+
+        <div class="row">
+
+            <div class="col-sm-3">
+
+        <!--Column1-->
+        <center>
+        <div class="footer-pad">
+          <h6 style="color:blue;">COMPANY</h6>
+          <ul class="list-unstyled" style="font-size:12px;">
+            <li><a href="#"></a></li>
+            <li><a href="#" style="color:black;">About Us</a></li>            
+            <li><a href="#" style="color:black;">Contact Support</a></li>
+            <li><a href="#" style="color:black;">Careers @ Jobstore</a></li>
+            <li><a href="#" style="color:black;">Blog</a></li>
+            <li><a href="#" style="color:black;">Partner Sites</a></li>
+          </ul>
+        </div>
+        </center>
+        
+            </div>
+
+            <div class="col-sm-3">
+
+        <!--Column1-->
+        <center>
+        <div class="footer-pad">
+          <h6 style="color:blue;">JOBSEEKER</h6>
+          <ul class="list-unstyled" style="font-size:12px;">
+            <li><a href="#"></a></li>
+            <li><a href="#" style="color:black;">Sign Up</a></li>            
+            <li><a href="#" style="color:black;">Sign In</a></li>
+            <li><a href="#" style="color:black;">Check Applications</a></li>
+            <li><a href="#" style="color:black;">Jobseeker FAQs</a></li>
+            <li><a href="#" style="color:black;">Browse Jobs</a></li>
+            <li><a href="#" style="color:black;">Browse by Industry</a></li>
+          </ul>
+        </div>
+        </center>
+        
+            </div>
+
+            <div class="col-sm-3">
+
+        <!--Column1-->
+        <center>
+        <div class="footer-pad">
+          <h6 style="color:blue;">EMPLOYER</h6>
+          <ul class="list-unstyled" style="font-size:12px;">
+            <li><a href="#"></a></li>
+            <li><a href="#" style="color:black;">Create Account</a></li>            
+            <li><a href="#" style="color:black;">Post Jobs</a></li>
+            <li><a href="#" style="color:black;">Products & Prices</a></li>
+            <li><a href="#" style="color:black;">Customer Support</a></li>
+            <li><a href="#" style="color:black;">Contact Sales</a></li>
+          </ul>
+        </div>
+        </center>
+            </div>
+
+            <div class="col-sm-3">
+
+        <!--Column1-->
+        <center>
+        <div class="footer-pad">
+          <h6 style="color:blue;">CONNECT WITH US</h6>
+          <ul class="list-unstyled" style="font-size:12px;">
+            <li><a href="#"></a></li>
+            <li><a href="#" style="color:black;">Facebook</a></li>            
+            <li><a href="#" style="color:black;">Twitter</a></li>
+            <li><a href="#" style="color:black;">LinkedIn</a></li>
+            <li><a href="#" style="color:black;">Instagram</a></li>
+            <li><a href="#" style="color:black;">Call us at +603 2716 5199</a></li>
+            <li><a href="#" style="color:black;">Send us a message</a></li>
+          </ul>
+        </div>
+        </center>
+            </div>
+
+        </div>
+
+          </div>
+          <div class="col-sm-1"></div>
+      </div>
+
+
+  </div>
+
+    <center>
+        <p class="text-xxs-center" style="color:black;font-size:12px;">&copy; 2023 Jobstore • Terms of Service • Privacy Policy • All Rights Reserved</p>
+        <br />
+    </center>
+  </footer>
+</body>
+</html>
+
+
